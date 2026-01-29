@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border-radius: 12px;
+  margin: 0 auto;
+  width: 60%;
+  height: 100%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  display: flex;
+  background-color: rgb(223, 216, 216);
+  overflow: hidden;
+}
+
+/* right container */
+
+.right_container {
+  width: 350px;
+  height: 500px;
+  margin-top: 50px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background-color: rgb(58, 58, 189);
+}
+.result {
+  color: rgb(218, 207, 207);
+  margin-top: 50px;
+  margin-left: 120px;
+  margin-bottom: 10px;
+}
+.circle {
+  margin: 30px auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #4a3cf0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  text-align: center;
+  color: white;
+}
+.circle1 p {
+  color: rgb(132, 124, 124);
+}
+
+.great h1 {
+  margin-left: 125px;
+  margin-top: 30px;
+  color: white;
+}
+
+.great p {
+  margin-right: 75px;
+  margin-left: 75px;
+  margin-top: 10px;
+  color: rgb(216, 206, 206);
+  text-align: center;
+}
+
+/* left container */
+
+.left_container {
+  width: 350px;
+  height: 500px;
+  margin-top: 50px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-left-color: white;
+  background-color: white;
+}
+
+.left_container h1 {
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+}
+
+.input1 {
+    display: flex;
+    align-content: space-between;
+    background-color: rgb(238, 185, 220);
+    color: rgb(245, 85, 192);
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.inputs label{
+    margin: 15px;
+}
+
+.inputs p {
+    color: black;
+}
+.input2 {
+    display: flex;
+    align-content: space-between;
+    background-color: rgb(238, 238, 123);
+    color: rgb(245, 85, 192);
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.input3 {
+    display: flex;
+    align-content: space-between;
+    background-color: rgb(237, 206, 227);
+    color: rgb(240, 222, 234);
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.input4 {
+    display: flex;
+    align-content: space-between;
+    background-color: rgb(237, 206, 227);
+    color: blue;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.input3 label {
+    color: rgb(16, 131, 16);
+}
